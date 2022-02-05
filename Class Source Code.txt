@@ -1,0 +1,9 @@
+
+class pizza1:
+#now blow we will use a class creator which is the method __inIt__(self):, its is a special method which is called
+#the class consturctor, and this will simply create your class, and after the self inside parentesis you have to put
+#the atributes of your class, then we write self.(your atribute), to be able to call it in yur project
+    def __init__(self,type,price,size):
+        self.type = type
+        self.price = price
+        self.size = size

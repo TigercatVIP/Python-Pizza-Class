@@ -1,0 +1,21 @@
+#now let's import our pizza class, to do that use the name of the file of your class in this case Pizza
+#and now what we want to import from pizza is the class or simply the name of the class in this case is pizza1
+
+from Pizza import pizza1
+
+#now let's create our object, let's our object will be named pizzaV, which stands from vegetarian pizza, that object
+#will be equal to our class with opened up parenthesis, "pizza1()" in this case, and we write down what exactly will be
+#in our "pizza1()", like the type, the price etc..
+
+pizzaV = pizza1("Vegetarian",5,"small")
+
+#now let's pirnt our object + some of its atributes example: pizzaV.price
+
+print("First pizza(pizzaV): " + pizzaV.type + ", price: " + str(pizzaV.price) + ", size: " + pizzaV.size)
+
+
+#let's create another object
+
+pizzaP = pizza1("peperoni",11,"big")
+
+print("\nSecond pizza(pizzaV): " + pizzaP.type + ", price: " + str(pizzaP.price) + ", size: " + pizzaP.size)
